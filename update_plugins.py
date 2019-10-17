@@ -46,7 +46,6 @@ goyo.vim https://github.com/junegunn/goyo.vim
 vim-zenroom2 https://github.com/amix/vim-zenroom2
 vim-repeat https://github.com/tpope/vim-repeat
 vim-commentary https://github.com/tpope/vim-commentary
-vim-go https://github.com/fatih/vim-go
 vim-gitgutter https://github.com/airblade/vim-gitgutter
 gruvbox https://github.com/morhetz/gruvbox
 vim-flake8 https://github.com/nvie/vim-flake8
@@ -59,6 +58,7 @@ vim-markdown https://github.com/plasticboy/vim-markdown
 comfortable-motion.vim https://github.com/yuttie/comfortable-motion.vim
 """.strip()
 
+# vim-go https://github.com/fatih/vim-go
 GITHUB_ZIP = '%s/archive/master.zip'
 
 SOURCE_DIR = path.join(path.dirname(__file__), 'sources_non_forked')
